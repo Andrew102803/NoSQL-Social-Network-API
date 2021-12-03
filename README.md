@@ -17,8 +17,7 @@ To run this code, simply clone the code, open the cloned code in your favorite I
 
 ## Usage
 
-See this video to see an example of how this Social Network API is used.
-COMING SOON
+See [this](https://www.youtube.com/watch?v=EE18HzbpbPs) video to see an example of how this Social Network API is used.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
