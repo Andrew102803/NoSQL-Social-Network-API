@@ -1,19 +1,20 @@
 const router = require('express').Router();
-const dateFormat = require('../../utils/dateFormat')
 
 const {
     getThoughts,
     getThoughtByID,
     addThought,
     updateThought,
-    deleteThought
+    deleteThought,
+    addReaction,
+    deleteReaction
 } = require('../../controllers/thought-controller');
 
 // /api/thoughts/
 router.route('/')
 .get(getThoughts)
 
-// api/thoughts/:userId/
+// api/thoughts/:userId
 router.route('/:userId')
 .post(addThought)
 
@@ -24,7 +25,12 @@ router.route('/:thoughtId')
 .delete(deleteThought)
 
 // /api/thoughts/:thoughtId/reactions
+router.route('/:thoughtId/reactions')
+.post(addReaction)
 
+// /api/thoughts/:thoughtId/reactions/:reactionId
 
+router.route('/:thoughtId/reactions/:reactionId')
+.delete(deleteReaction)
 
 module.exports = router;
