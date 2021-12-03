@@ -26,9 +26,7 @@ const UserSchema = new Schema(
             match: [/.+@.+\..+/, 'Please enter a valid e-mail address']
         },
         //Add reference to thought model
-        thoughts: {
-
-        },
+        thoughts: [],
         friends: [FriendSchema],
     },
     {
