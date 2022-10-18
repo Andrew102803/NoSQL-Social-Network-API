@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggamb/NoSQL-Social-Network-API.git"
+    "url": "git+https://github.com/Andrew102803/week-18-sql-social-.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ggamb/NoSQL-Social-Network-API/issues"
+    "url": "https://github.com/Andrew102803/week-18-sql-social-/issues"
   },
-  "homepage": "https://github.com/ggamb/NoSQL-Social-Network-API#readme"
+  "homepage": "https://github.com/Andrew102803/week-18-sql-social-#readme"
 }
